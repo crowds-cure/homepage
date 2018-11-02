@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="icon-ohif-logo" viewBox="0 0 47 47">
+    <title>
+      Open Health Imaging Foundation
+    </title>
+    <g id="icon-ohif-logo" stroke="#fff" stroke-width="2.5" stroke-miterlimit="10">
+      <rect x="1.25" y="1.25" width="18.8" height="18.8" rx="1" ry="1"/>
+      <rect x="26" y="1.25" width="18.8" height="18.8" rx="1" ry="1"/>
+      <rect x="1.25" y="26" width="18.8" height="18.8" rx="1" ry="1"/>
+      <rect x="26" y="26" width="18.8" height="18.8" rx="1" ry="1"/>
+    </g>
+  </symbol>
+</svg>
