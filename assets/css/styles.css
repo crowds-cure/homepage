@@ -2,262 +2,144 @@
     --textActiveColor: #79f9fe;
     --textPrimaryColor: white;
     --textSecondaryColor: #b8baee;
+    --primaryBackground: #252448;
 }
 
-/*-------------
- 	General
--------------*/
-
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html{
-	font: normal 16px sans-serif;
-	color: var(--textPrimaryColor);
-	background: #000000;
+html {
+    font: normal 16px sans-serif;
+    color: var(--textPrimaryColor);
+    background: black;
 }
 
 body {
-	font-family: 'WorkSans', 'SF Pro Text', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-family: 'WorkSans', 'SF Pro Text', 'Roboto', 'Helvetica Neue', sans-serif;
+    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul, nav{
-	list-style: none;
+ul,
+nav {
+    list-style: none;
 }
 
-a{
-	text-decoration: none;
-	color: var(--textActiveColor);
-	cursor: pointer;
-
-	opacity: 0.9;
+h4.logo {
+    padding: 20px;
 }
 
-a > span.logoText {
-	color: var(--textPrimaryColor);
+a {
+    text-decoration: none;
+    color: var(--textActiveColor);
+    cursor: pointer;
 }
 
-a > span.logoText.highlight {
-	color: var(--textActiveColor);
+a>span.logoText {
+    color: var(--textPrimaryColor);
 }
 
-a:hover{
-	opacity: 1;
+a>span.logoText.highlight {
+    color: var(--textActiveColor);
+}
+
+a:hover {
+    opacity: 1;
 }
 
 a.btn {
-	text-transform: uppercase;
-	text-align: center;
-	border-radius: 8px;
-	border: solid 1px var(--textSecondaryColor);
-	background-color: transparent;
-	color: var(--textSecondaryColor);
-	font-size: 15px;
-	margin: 0 7px;
-	cursor: pointer;
-	outline: none;
+	display: block;
+    text-align: center;
+    border-radius: 6px;
+    height: 54px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.53);
+    /*border: solid 1px var(--textSecondaryColor);*/
+    background-color: transparent;
+    color: var(--textSecondaryColor);
+    font-size: 15px;
+    margin: 0 7px;
+    cursor: pointer;
+    outline: none;
 }
 
-hr{
-	width: 150px;
-	height: 2px;
-	background-color: #2196F3;
-	border: 0;
-	margin-bottom: 80px;
+a.btn-primary {
+    background-color: #0911a3;
+    color: var(--textSecondaryColor);
 }
 
-section{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-
-	padding: 125px 100px;
+a.btn-secondary {
+    background-color: transparent;
+    color: var(--textPrimaryColor);
 }
 
-@media (max-width: 1000px){
-
-	section{
-		padding: 100px 50px;
-	}
-
+hr {
+    width: 150px;
+    height: 2px;
+    background-color: #2196F3;
+    border: 0;
+    margin-bottom: 80px;
 }
 
-@media (max-width: 600px){
-
-	section{
-		padding: 80px 30px;
-	}
-
+section.main {
+	background: var(--primaryBackground);
 }
 
-section h3.title{
-	text-transform: capitalize; 
-	font-weight: bold
-	font-size: 32px;
-	margin-bottom: 35px;
-	text-align: center;
+section.secondary {
+	background: black;
 }
 
-section p{
-	max-width: 800px;
-	text-align: center;
-	margin-bottom: 35px;
-	line-height: 2;
+.detail-section>div {
+    padding: 30px;
+    margin: 30px;
 }
 
-/*-------------
- 	Header
--------------*/
-
-header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 35px 100px 0;
+.link-section>div {
+    padding: 30px;
+    margin: 30px;
 }
 
-header nav{
-	display: flex;
+.acknowledgements {
+    background: black;
 }
 
-header nav li{
-	margin: 0 15px;
+.acknowledgements>div {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
 }
 
-header nav li:first-child{
-	margin-left: 0;	
+.acknowledgements>div>hr {
+    margin: 10px auto;
 }
 
-header nav li:last-child{
-	margin-right: 0;	
+.logo-section {
+    background: black;
+    text-align: center;
+    padding: 10px 0;
 }
 
-
-
-@media (max-width: 1000px){
-	header{
-		padding: 20px 50px;
-	}
+.logo-section.last {
+    height: 200px;
 }
 
-
-@media (max-width: 700px){
-	header{
-		flex-direction: column;		
-	}
-
-	header h2{
-		margin-bottom: 15px;
-	}
-}
-
-.hero{
-	position: relative;
-	justify-content: center;
-	min-height: 100vh;
-	text-align: center;
-}
-
-.hero .background-image{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: linear-gradient(113deg, #2d2c69, #313060 29%, #17163b 70%, #262548);
-	z-index: -1;
-}
-
-.hero h1{
-	font-weight: bold;
-	font-size: 45px;
-	margin-bottom: 15px;
-}
-
-.hero h3{
-	font-size: 28px;
-	margin-bottom: 40px;
-}
-
-.hero a.btn{
-	padding: 20px 46px;
-}
-
-@media (max-width: 800px){
-
-	.hero{
-		min-height: 600px;
-	}
-
-	.hero h1{
-		font-size: 48px;
-	}
-
-	.hero h3{
-		font-size: 24px;
-	}
-
-	.hero a.btn{
-		padding: 15px 40px;
-	}
-
-}
-
-.details a {
-	color: #605886;
-}
-
-.details a:hover {
-	color: var(--textActiveColor);
-}
-
-.details{
-	background-color: #fff;
-	color: black;
-}
-
-.details li img{
-	padding: 20px;
-	width: 100%;
-}
-
-.details li div{
-	width: 100%;
-}
-
-.details li div p {
-	text-align: left;
-}
-
-.acknowledgements li {
-	margin: 10px;
-	text-align: center;
+.logo-section>div {
+    padding: 5px;
 }
 
 .qtim-logo {
-	cursor: pointer;
-	text-decoration: none;
-	color: #efefef;
+    cursor: pointer;
+    text-decoration: none;
+    color: #efefef;
 }
 
 .qtim-logo h3 {
-	font-weight: 600;
-	font-size: 30px;
-	margin: 0;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
 }
 
 .qtim-logo p {
-	margin: 0.35714rem; }
+    margin: 0.35714rem;
 }
 
 .ohif-logo {
@@ -270,66 +152,21 @@ header nav li:last-child{
 }
 
 .ohif-logo .ohif-icon {
-  float: left;
-  display: inline-block;
-  fill: transparent;
-  height: 20px;
-  margin: 0 8px 0 0;
-  width: 30px;
+    float: left;
+    display: inline-block;
+    fill: transparent;
+    height: 20px;
+    margin: 0 8px 0 0;
+    width: 30px;
 }
 
 .ohif-logo .ohif-logo-text {
-	float: left;
-      display: inline-block;
-      font-family: "Sanchez";
-      color: white;
-      font-size: 14px;
-      font-weight: 300;
-      line-height: 30px;
-      text-decoration: none;
-}
-
-
-/*-------------
- 	Footer
--------------*/
-
-footer{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	background-color: #414a4f;
-	padding: 60px 0;
-}
-
-footer ul{
-	display: flex;
-	margin-bottom: 25px;
-	font-size: 16px;
-}
-
-footer ul li{
-	margin: 0 8px;	
-}
-
-footer ul li:first-child{
-	margin-left: 0;	
-}
-
-footer ul li:last-child{
-	margin-right: 0;	
-}
-
-footer p{
-	text-transform: uppercase;
-	font-size: 14px;
-	color: rgba(255,255,255,0.6);
-	margin-bottom: 10px;
-}
-
-@media (max-width: 700px){
-	footer{
-		padding: 80px 15px;
-	}
+    float: left;
+    display: inline-block;
+    font-family: "Sanchez";
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-decoration: none;
 }
