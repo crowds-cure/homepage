@@ -39,7 +39,7 @@ a{
 }
 
 a > span.logoText {
-	color: var(--textSecondaryColor);
+	color: var(--textPrimaryColor);
 }
 
 a > span.logoText.highlight {
