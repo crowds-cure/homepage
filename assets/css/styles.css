@@ -28,6 +28,10 @@ h4.logo {
     padding: 20px;
 }
 
+h3.normal {
+    color: var(--textPrimaryColor);
+}
+
 h3.topic {
     color: var(--textTopicColor);
     /*font-family: WorkSans;*/
@@ -61,8 +65,6 @@ img.imageSize {
 }
 
 imageBlock {
-    top: 20%;
-    left: 10%;
     padding-top: 100%;
     width: 100%;
     border-radius: 100%;
@@ -90,6 +92,8 @@ div.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a {
@@ -207,6 +211,14 @@ p {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.left {
+    text-align: left;
 }
 
 use.path {
