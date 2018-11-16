@@ -3,6 +3,7 @@
     --textPrimaryColor: white;
     --textSecondaryColor: #b8baee;
     --primaryBackground: #252448;
+    --textTopicColor: #18faff;
 }
 
 html {
@@ -27,9 +28,73 @@ h4.logo {
     padding: 20px;
 }
 
+h3.topic {
+    color: var(--textTopicColor);
+    font-family: WorkSans;
+    font-size: 39px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+}
+
+p.textDescription 
+{
+    font-family: WorkSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+}
+
+img.imageSize {
+    display: block;
+    height: 322px;
+}
+
+imageBlock {
+    top: 20%;
+    left: 10%;
+    padding-top: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.smallerSize {
+    display: block;
+    background-size: 15px 10px;
+}
+
+.vAlign {
+    height: 100%;
+}
+
+.smallerSize {
+    background-size: 15px 12px;
+}
+
+div.spacing {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+svg {
+    padding-bottom: 0px;
+}
+
 a {
     text-decoration: none;
     color: var(--textActiveColor);
+    cursor: pointer;
+}
+
+.symbolLine
+{
+    text-decoration: none;
+    color: #18faff;
     cursor: pointer;
 }
 
@@ -124,6 +189,10 @@ section.secondary {
 
 .logo-section>div {
     padding: 5px;
+}
+
+use.path {
+  border: solid 3.3px #18faff;
 }
 
 .qtim-logo {
