@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: 'WorkSans', 'SF Pro Text', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-family: 'Work Sans', 'SF Pro Text', 'Roboto', 'Helvetica Neue', sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -30,7 +30,7 @@ h4.logo {
 
 h3.topic {
     color: var(--textTopicColor);
-    font-family: WorkSans;
+    /*font-family: WorkSans;*/
     font-size: 39px;
     font-weight: 600;
     font-style: normal;
@@ -41,13 +41,18 @@ h3.topic {
 
 p.textDescription 
 {
-    font-family: WorkSans;
+   /* font-family: WorkSans;*/
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.44;
     letter-spacing: normal;
+}
+
+.acknowledgements {
+    font-size: 31px;
+    color: var(--textTopicColor);
 }
 
 img.imageSize {
@@ -81,8 +86,10 @@ div.spacing {
     padding-bottom: 0px;
 }
 
-svg {
-    padding-bottom: 0px;
+div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -189,6 +196,17 @@ section.secondary {
 
 .logo-section>div {
     padding: 5px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
 }
 
 use.path {
