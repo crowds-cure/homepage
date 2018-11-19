@@ -1,15 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <symbol id="icon-ohif-logo" viewBox="0 0 47 47">
-    <title>
-      Open Health Imaging Foundation
-    </title>
-    <g id="icon-ohif-logo" stroke="#fff" stroke-width="2.5" stroke-miterlimit="10">
-      <rect x="1.25" y="1.25" width="18.8" height="18.8" rx="1" ry="1"/>
-      <rect x="26" y="1.25" width="18.8" height="18.8" rx="1" ry="1"/>
-      <rect x="1.25" y="26" width="18.8" height="18.8" rx="1" ry="1"/>
-      <rect x="26" y="26" width="18.8" height="18.8" rx="1" ry="1"/>
+<symbol id="icon-compete" viewBox="0 0 24 24">
+<title>compete</title>
+<g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+<g id="compete1" stroke="#18faff">
+<path class="a" d="M3.113,9.253A4,4,0,0,1,.5,5.5v-1a1,1,0,0,1,1-1H4.8"/>
+</g>
+<g id="compete2" stroke="#18faff">
+<path class="a" d="M20.887,9.253A4,4,0,0,0,23.5,5.5v-1a1,1,0,0,0-1-1H19.2"/>
+</g>
+<g id="compete3" stroke="#18faff">
+<path class="a" d="M12.479,3.287,13.507,5.5h2a.489.489,0,0,1,.345.855L14.116,8.065l.962,2.209a.524.524,0,0,1-.746.655L12.008,9.622,9.684,10.929a.524.524,0,0,1-.746-.655L9.9,8.065,8.164,6.357A.489.489,0,0,1,8.508,5.5h2l1.029-2.215A.53.53,0,0,1,12.479,3.287Z"/>
+</g>
+<g id="compete4" stroke="#18faff">
+<line class="a" x1="12" y1="15.5" x2="12" y2="20"/>
+</g>
+<g id="compete5" stroke="#18faff">
+<path class="a" d="M6,23.5C6,21.567,8.686,20,12,20s6,1.567,6,3.5Z"/>
+</g>
+<g id="compete6" stroke="#18faff">
+<path class="a" d="M18.6,9.53c-.449,4.492-5.838,7.865-10.258,4.776A7.312,7.312,0,0,1,5.351,9.013l-.8-7.963a.5.5,0,0,1,.5-.55h13.9a.5.5,0,0,1,.5.55Z"/>
+</g>
+</g>
+</symbol>
+
+<symbol id="icon-contribute" viewBox="0 0 24 24">
+<title>cloud-upload</title>
+<g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+<g id="contribute1" stroke="#18faff">
+<path class="a" d="M16.3,15.891h2.4S23,15.33,23,11.108a4.773,4.773,0,0,0-4.955-4.773A6.685,6.685,0,0,0,5.324,8.794,3.586,3.586,0,0,0,1,12.3c0,3.645,3.826,3.588,3.826,3.588H7.689"></path>
+</g>
+<g id="contribute2" stroke="#18faff">
+	<line class="a" x1="12" y1="10.391" x2="12" y2="21.391"/>
+</g>
+<g id="contribute3" stroke="#18faff">
+	<polyline class="a" points="15 13.391 12 10.391 9 13.391"/>
+</g>
+</g>
+</symbol>
+
+<symbol id="icon-create" viewBox="0 0 20 22">
+	<title>create</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="create" stroke="#18faff">
+            <g id="shape-square-add" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) ">
+                <path d="M12.5,19.5 L1.5,19.5 C0.94771525,19.5 0.5,19.0522847 0.5,18.5 L0.5,1.5 C0.5,0.94771525 0.94771525,0.5 1.5,0.5 L18.5,0.5 C19.0522847,0.5 19.5,0.94771525 19.5,1.5 L19.5,12.5" id="Path"></path>
+                <path d="M19.5,15.5 L19.5,23.5" id="Path"></path>
+                <path d="M23.5,19.5 L15.5,19.5" id="Path"></path>
+            </g>
+            <g id="pencil" transform="translate(9.000000, 4.000000)">
+                <polygon id="Rectangle" transform="translate(5.622838, 5.377425) rotate(45.000000) translate(-5.622838, -5.377425) " points="4.24783757 0.49984126 6.99783757 0.49984126 6.99783757 10.2550079 4.24783757 10.2550079"></polygon>
+                <polygon id="Path" points="1.20129167 7.854 0.229166667 10.7708333 3.146 9.79870833"></polygon>
+                <path d="M10.0439167,2.90033333 L8.09966667,0.956083333 L8.42370833,0.632041667 C8.9632293,0.110954879 9.8208249,0.118407153 10.3512089,0.648791125 C10.8815928,1.1791751 10.8890451,2.0367707 10.3679583,2.57629167 L10.0439167,2.90033333 Z" id="Path"></path>
+            </g>
+        </g>
     </g>
-  </symbol>
+</symbol>
+
+<symbol id="icon-donate" viewBox="0 0 80 60">
+	<g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+		<g id="donate1" stroke="#18faff">
+			<path class="a" d="M22.5,10.5,12.2,15.413a.5.5,0,0,1-.4,0L1.5,10.5"/>
+		</g>
+		<g id="donate2" stroke="#18faff">
+			<path class="a" d="M22.5,13.5,12.2,18.413a.5.5,0,0,1-.4,0L1.5,13.5"/>
+		</g>
+		<g id="donate3" stroke="#18faff">
+			<path class="a" d="M22.5,16.5,12.2,21.413a.5.5,0,0,1-.4,0L1.5,16.5"/>
+		</g>
+		<g id="donate4" stroke="#18faff">
+			<path class="a" d="M12.2,12.413a.5.5,0,0,1-.4,0L1.555,7.958a.5.5,0,0,1,0-.916L11.8,2.587a.5.5,0,0,1,.4,0L22.445,7.042a.5.5,0,0,1,0,.916Z"/>
+		</g>
+	</g>
+</symbol>
+
+<symbol id="icon-donwload-data" viewBox="0 0 80 60">
+	<g id="Page-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+		<g id="download1" stroke="#18faff">
+			<circle class="a" cx="17.5" cy="6.5" r="6"/>
+			<line class="a" x1="17.5" y1="3.5" x2="17.5" y2="9.5"/>
+		</g>
+		<g id="download2" stroke="#18faff">
+			<line class="a" x1="17.5" y1="9.5" x2="15.25" y2="7.25"/>
+		</g>
+		<g id="download3" stroke="#18faff">
+			<line class="a" x1="17.5" y1="9.5" x2="19.75" y2="7.25"/>
+		</g>
+		<g id="download4" stroke="#18faff">
+			<line class="a" x1="0.5" y1="16.5" x2="21.5" y2="16.5"/>
+		</g>
+		<g id="download5" stroke="#18faff">
+			<path class="a" d="M21.5,13.5v5a1,1,0,0,1-1,1H1.5a1,1,0,0,1-1-1V5.5a1,1,0,0,1,1-1h8"/>
+		</g>
+		<g id="download6" stroke="#18faff">
+			<path class="a" d="M8,23.5a6.979,6.979,0,0,0,1.5-4"/>
+		</g>
+		<g id="download7" stroke="#18faff">
+			<path class="a" d="M14,23.5a6.979,6.979,0,0,1-1.5-4"/>
+		</g>
+		<g id="download8" stroke="#18faff">
+			<line class="a" x1="6.5" y1="23.5" x2="15.5" y2="23.5"/>
+		</g>
+	</g>
+</symbol>
+
+<symbol id="icon-github" viewBox="0 0 80 60">
+	<g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+		<g id="github1" stroke="#18faff">
+			<path class="a" d="M12,.5A11.5,11.5,0,0,0,8.365,22.914c.574.1.756-.237.756-.541,0-.275.006-1.037,0-2-3.2.694-3.861-1.515-3.861-1.515a3.043,3.043,0,0,0-1.276-1.682c-1.044-.714.078-.7.078-.7a2.414,2.414,0,0,1,1.762,1.184,2.448,2.448,0,0,0,3.346.956A2.45,2.45,0,0,1,9.9,17.084c-2.553-.292-5.238-1.278-5.238-5.686A4.447,4.447,0,0,1,5.847,8.312a4.126,4.126,0,0,1,.112-3.043s.967-.309,3.162,1.18a10.883,10.883,0,0,1,5.76,0c2.2-1.488,3.159-1.18,3.159-1.18a4.131,4.131,0,0,1,.114,3.043A4.442,4.442,0,0,1,19.337,11.4c0,4.42-2.689,5.391-5.251,5.674a2.727,2.727,0,0,1,.787,2.12v3.184c0,.307.186.647.77.536A11.5,11.5,0,0,0,12,.5Z"/>
+		</g>
+	</g>
+</symbol>
+
+<symbol id="icon-support" viewBox="0 0 80 60">
+	<g id="Page-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
+		<g id="support1" stroke="#18faff">
+			<rect class="a" x="0.5" y="3.954" width="23" height="16" rx="2" ry="2"/>
+			<polyline class="a" points="22.911 4.536 12 13.454 1.089 4.536"/>
+		</g>
+	</g>
+</symbol>
+
 </svg>
