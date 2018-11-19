@@ -41,6 +41,7 @@ h3.topic {
     font-stretch: normal;
     line-height: 1.18;
     letter-spacing: normal;
+    padding-bottom: 35px;
 }
 
 p.textDescription 
@@ -52,6 +53,7 @@ p.textDescription
     font-stretch: normal;
     line-height: 1.44;
     letter-spacing: normal;
+    padding-bottom: 20px;
 }
 
 .acknowledgements {
@@ -64,8 +66,9 @@ img.imageSize {
     height: 322px;
 }
 
-imageBlock {
+div.imageBlock {
     padding-top: 100%;
+    padding-bottom: 25px;
     width: 100%;
     border-radius: 100%;
 }
@@ -109,7 +112,15 @@ a {
     cursor: pointer;
 }
 
-a>span.logoText {
+.lowerPadding {
+    padding-bottom: 45px;
+}
+
+svg.lowerPadding {
+    padding-bottom: 55px;
+}
+
+a > span.logoText {
     color: var(--textPrimaryColor);
 }
 
@@ -141,6 +152,7 @@ a.btn {
 a.btn-primary {
     background-color: #0911a3;
     color: var(--textSecondaryColor);
+    padding-bottom: 20px;
 }
 
 a.btn-secondary {
@@ -161,8 +173,10 @@ section.main {
 }
 
 section.secondary {
-	background: black;
+    background: black;
+    padding-bottom: 150px;
 }
+
 
 .detail-section>div {
     padding: 30px;
@@ -176,6 +190,7 @@ section.secondary {
 
 .acknowledgements {
     background: black;
+    padding-top: 35px;
 }
 
 .acknowledgements>div {
@@ -194,8 +209,9 @@ section.secondary {
     padding: 10px 0;
 }
 
-.logo-section.last {
+.logo-section.last>div {
     height: 200px;
+    padding-bottom: 45px;
 }
 
 .logo-section>div {
@@ -241,13 +257,17 @@ use.path {
     margin: 0.35714rem;
 }
 
-.ohif-logo {
+.logo-img {
     display: block;
     margin: 1.07143rem auto;
     cursor: pointer;
     width: 265px;
     height: 30px;
     text-decoration: none;
+}
+
+.logo-img.lowerPadding {
+    padding-top: 40px;
 }
 
 .ohif-logo .ohif-icon {
