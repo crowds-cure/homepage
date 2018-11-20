@@ -96,8 +96,26 @@ div.center {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 30px;
 }
+
+div.nacCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.login {
+    color: #18faff;
+}
+
+.loginPadding {
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
 
 a {
     text-decoration: none;
@@ -113,6 +131,7 @@ a {
 }
 
 .lowerPadding {
+    padding-top: 15px;
     padding-bottom: 45px;
 }
 
@@ -153,6 +172,15 @@ a.btn-primary {
     background-color: #0911a3;
     color: var(--textSecondaryColor);
     padding-bottom: 20px;
+}
+
+
+a.btn-signup {
+    background-color: #0911a3;
+    color: var(--textSecondaryColor);
+    padding-bottom: 20px;
+    border-color: #007bff;
+    width: 100px;
 }
 
 a.btn-secondary {
