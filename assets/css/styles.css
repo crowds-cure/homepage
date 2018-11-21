@@ -132,8 +132,9 @@ a.btn {
 
 a.btn-primary {
     background-color: #0911a3;
-    color: var(--textSecondaryColor);
+    color: var(--textPrimaryColor);
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 div.signup-buttons {
@@ -146,10 +147,11 @@ div.signup-buttons > a {
 
 a.btn-signup {
     background-color: #0911a3;
-    color: var(--textSecondaryColor);
+    color: var(--textPrimaryColor);
     padding-bottom: 20px;
     border-color: #007bff;
     width: 100px;
+    font-weight: bold;
 }
 
 a.btn-signup:hover {
@@ -314,3 +316,5 @@ use.path {
     line-height: 30px;
     text-decoration: none;
 }
+
+
