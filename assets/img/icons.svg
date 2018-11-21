@@ -57,7 +57,7 @@
 		</g>
 	</symbol>
 
-	<symbol id="icon-donate"  viewBox="0 -10 70 40">
+	<symbol id="icon-donate"  viewBox="0 -10 34 40">
 		<g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
 			<g id="donate1" stroke="#18faff">
 				<path class="a" d="M22.5,10.5,12.2,15.413a.5.5,0,0,1-.4,0L1.5,10.5"/>
@@ -74,7 +74,7 @@
 		</g>
 	</symbol>
 
-	<symbol id="icon-donwload-data"  viewBox="0 0 80 40">
+	<symbol id="icon-download-data"  viewBox="0 0 80 40">
 		<g id="Page-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke_linecap="round" stroke-linejoin="round">
 			<g id="download1" stroke="#18faff">
 				<circle class="a" cx="17.5" cy="6.5" r="6"/>
