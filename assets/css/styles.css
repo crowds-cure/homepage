@@ -1,20 +1,10 @@
-:root {
-    --textActiveColor: #79f9fe;
-    --textPrimaryColor: white;
-    --textSecondaryColor: #b8baee;
-    --primaryBackground: #252448;
-    --textTopicColor: #18faff;
-    --linkHoverColor: pink;
-    --linkActiveColor: purple;
-}
-
 html {
     font: normal 16px sans-serif;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--textPrimaryColor);
+    color: white;
     background: black;
 }
 
@@ -36,11 +26,11 @@ h4.logo {
 
 h3.normal {
     font-weight: bold;
-    color: var(--textPrimaryColor);
+    color: white;
 }
 
 h3.topic {
-    color: var(--textTopicColor);
+    color: #18faff;
     font-size: 39px;
     font-weight: 600;
     font-style: normal;
@@ -62,7 +52,7 @@ p.textDescription {
 
 .acknowledgements {
     font-size: 31px;
-    color: var(--textTopicColor);
+    color: #18faff;
 }
 
 div.imageBlock {
@@ -73,19 +63,19 @@ div.imageBlock {
 }
 
 a {
-    color: var(--textActiveColor);
+    color: #79f9fe;
     cursor: pointer;
     transition: 0.2s all ease;
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--linkHoverColor);
+    color: pink;
 }
 
 a:active {
     text-decoration: none;
-    color: var(--linkActiveColor);
+    color: purple;
 }
 
 .symbolLine
@@ -105,12 +95,12 @@ svg.lowerPadding {
 }
 
 a > span.logoText {
-    color: var(--textPrimaryColor);
+    color: white;
     font-weight: bold;
 }
 
 a>span.logoText.highlight {
-    color: var(--textActiveColor);
+    color: #79f9fe;
 }
 
 a.btn {
@@ -121,9 +111,9 @@ a.btn {
     width: 200px;
     padding: 15px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.53);
-    /*border: solid 1px var(--textSecondaryColor);*/
+    /*border: solid 1px #b8baee;*/
     background-color: transparent;
-    color: var(--textSecondaryColor);
+    color: #b8baee;
     font-size: 15px;
     margin: 0 7px;
     cursor: pointer;
@@ -132,7 +122,7 @@ a.btn {
 
 a.btn-primary {
     background-color: #0911a3;
-    color: var(--textPrimaryColor);
+    color: white;
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -147,7 +137,7 @@ div.signup-buttons > a {
 
 a.btn-signup {
     background-color: #0911a3;
-    color: var(--textPrimaryColor);
+    color: white;
     padding-bottom: 20px;
     border-color: #007bff;
     width: 100px;
@@ -165,16 +155,16 @@ a.btn-login {
 }
 
 a.btn-login:hover {
-    color: var(--linkHoverColor);
+    color: pink;
 }
 
 a.btn-login:active {
-    color: var(--linkActiveColor);
+    color: purple;
 }
 
 a.btn-secondary {
     background-color: transparent;
-    color: var(--textPrimaryColor);
+    color: white;
 }
 
 hr {
@@ -186,7 +176,7 @@ hr {
 }
 
 section.main {
-	background: var(--primaryBackground);
+	background: #252448;
 }
 
 section.secondary {
