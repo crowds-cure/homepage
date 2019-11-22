@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font: normal 16px sans-serif;
     font-style: normal;
@@ -5,306 +11,438 @@ html {
     line-height: normal;
     letter-spacing: normal;
     color: white;
-    background: black;
 }
 
 body {
+    background-color: #0f0e20;
+    color: #ffffff;
     font-family: 'Work Sans', 'SF Pro Text', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
     margin: 0;
+    padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-ul,
-nav {
-    list-style: none;
-}
-
-h4.logo {
-    padding: 20px;
-}
-
-h3.normal {
-    font-weight: bold;
-    color: white;
-}
-
-h3.topic {
-    color: #18faff;
-    font-size: 39px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.28;
-    letter-spacing: normal;
-    padding-bottom: 35px;
-}
-
-p.textDescription {
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.44;
-    letter-spacing: normal;
-    padding-bottom: 20px;
-}
-
-.acknowledgements {
-    font-size: 31px;
-    color: #18faff;
-}
-
-div.imageBlock {
-    padding-top: 100%;
-    padding-bottom: 25px;
-    width: 100%;
-    border-radius: 100%;
-}
-
 a {
-    color: #79f9fe;
+    color: #18faff;
     cursor: pointer;
-    transition: 0.2s all ease;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: none;
-    color: pink;
+    color: #ffffff;
 }
 
 a:active {
     text-decoration: none;
-    color: purple;
-}
-
-.symbolLine
-{
-    text-decoration: none;
-    color: #18faff;
-    cursor: pointer;
-}
-
-.lowerPadding {
-    padding-top: 15px;
-    padding-bottom: 45px;
-}
-
-svg.lowerPadding {
-    padding-bottom: 55px;
-}
-
-a > span.logoText {
-    color: white;
-    font-weight: bold;
-}
-
-a>span.logoText.highlight {
-    color: #79f9fe;
-}
-
-a.btn {
-	display: block;
-    text-align: center;
-    border-radius: 6px;
-    height: 54px;
-    width: 200px;
-    padding: 15px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.53);
-    /*border: solid 1px #b8baee;*/
-    background-color: transparent;
-    color: #b8baee;
-    font-size: 15px;
-    margin: 0 7px;
-    cursor: pointer;
-    outline: none;
-}
-
-a.btn-primary {
-    background-color: #0911a3;
-    color: white;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-
-div.signup-buttons {
-    text-align: center;
-}
-
-div.signup-buttons > a {
-    display: inline-block;
-}
-
-a.btn-signup {
-    background-color: #0911a3;
-    color: white;
-    padding-bottom: 20px;
-    border-color: #007bff;
-    width: 100px;
-    font-weight: bold;
-}
-
-a.btn-signup:hover {
-    background-color: #007bff;
-}
-
-a.btn-login {
-    box-shadow: none;
-    width: 100px;
-    color: #18faff
-}
-
-a.btn-login:hover {
-    color: pink;
-}
-
-a.btn-login:active {
-    color: purple;
-}
-
-a.btn-secondary {
-    background-color: transparent;
-    color: white;
-}
-
-hr {
-    width: 150px;
-    height: 2px;
-    background-color: #2196F3;
-    border: 0;
-    margin-bottom: 80px;
-}
-
-section.main {
-	background: #252448;
-}
-
-section.secondary {
-    background: black;
-    padding-bottom: 80px;
-}
-
-
-.detail-section>div {
-    padding: 30px;
-}
-
-.link-section>div {
-    padding: 15px;
-}
-
-.data-section>div {
-    padding: 15px;
-}
-
-svg.icon-download-data {
-    padding-left: 25px;
-}
-
-.acknowledgements {
-    background: black;
-    padding-top: 35px;
-}
-
-.acknowledgements>div {
-    padding: 30px;
-    text-align: center;
-}
-
-.acknowledgements>div>hr {
-    margin: 10px auto;
-}
-
-.logo-section {
-    background: black;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.logo-section.last>div {
-    height: 200px;
-    padding-bottom: 45px;
-}
-
-.logo-section>div {
-    padding: 5px;
-}
-
-p {
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.44;
-    letter-spacing: normal;
-    text-align: center;
     color: #ffffff;
 }
 
-p.center {
+section {
+    display: table;
+    padding: 0 32px;
     text-align: center;
+    width: 100%;
 }
 
-p.left {
+section.title {
+    background-color: #472e93;
+}
+
+section.title .logo {
+    font-size: 39px;
+    font-weight: 600;
+    margin: 29px 0 15px;
+}
+
+section.title .logo > a > span {
+    color: #ffffff;
+}
+
+section.title .logo > a > span.highlight {
+    color: #79f9fe;
+}
+
+section.title .description {
+    display: block;
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 1.31;
+    margin: 0 auto;
+    max-width: 947px;
+}
+
+section.title .buttons {
+    display: table;
+    margin: 31px auto 38px;
+}
+
+section.title .buttons .button {
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 20px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 8px;
+    width: 142px;
+}
+
+section.title .buttons .signup {
+    background-color: #18c8ff;
+    color: #140046;
+    font-weight: 600;
+}
+
+section.title .buttons .login {
+    box-shadow: inset 0 0 0 1px #c8bee9;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+section.title .screenshot {
+    margin: 0 auto;
+    object-fit: contain;
+    max-width: 776px;
+    pointer-events: none;
+}
+
+section.title .screenshot img {
+    border-radius: 9px;
+    box-shadow: 0 0 0 2px #a391da, 0 2px 29px 0 rgba(0, 0, 0, 0.5);
+    margin-top: -8.8%;
+    transform: translateY(16%);
+    width: 100%;
+}
+
+section.overview {
+    background-color: #140046;
+}
+
+section.overview .introduction {
+    margin: 126px auto 0;
+    max-width: 1098px;
+}
+
+section.overview .introduction p {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.32;
+    margin-bottom: 20px;
+}
+
+section.overview .actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 72px auto 0;
+    max-width: 1100px;
+}
+
+section.overview .actions .action {
+    margin: 0 16px;
+    max-width: 315px;
+}
+
+section.overview .actions .action svg {
+    height: 146px;
+    margin-bottom: 23px;
+    width: 146px;
+}
+
+section.overview .actions .action h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section.overview .actions .action p {
+    font-size: 19px;
+}
+
+section.overview .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 75px auto 85px;
+    max-width: 1350px;
+}
+
+section.overview .links .link {
+    align-items: center;
+    display: flex;
+    margin: 60px 0;
+    min-width: 350px;
     text-align: left;
 }
 
-use.path {
-  border: solid 3.3px #18faff;
+section.overview .links .link svg {
+    height: 70px;
+    margin-right: 32px;
+    min-width: 70px;
+    stroke: #18faff;
+    transition: stroke 0.3s ease;
+    width: 70px;
 }
 
-.qtim-logo {
-    cursor: pointer;
-    text-decoration: none;
-    color: #efefef;
+section.overview .links .link:hover svg {
+    stroke: #ffffff;
 }
 
-.qtim-logo h3 {
+section.overview .links .link h4 {
+    color: #ffffff;
+    font-size: 29px;
     font-weight: 600;
-    font-size: 30px;
-    margin: 0;
 }
 
-.qtim-logo p {
-    margin: 0.35714rem;
+section.overview .links .link a {
+    font-size: 18px;
+    line-height: 1.44;
 }
 
-.logo-img {
-    margin: 0 auto;
-    cursor: pointer;
-    text-decoration: none;
+section.acknowledgements h2 {
+    color: #18faff;
+    font-size: 31px;
+    font-weight: normal;
+    margin: 84px 0 0;
+}
+
+section.acknowledgements p {
     display: block;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.44;
+    margin: 36px auto 68px;
+    max-width: 650px;
+}
+
+section.acknowledgements .logos {
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: 42px auto 46px;
+    max-width: 1200px;
 }
 
-.logo-img > img {
-    max-width: 265px;
-    min-height: 30px;
+section.acknowledgements .logos a {
+    display: block;
+    margin: 28px 25px;
+    /* TODO: [rsna2019] REMOVE */
+    background-color: #ffffff11;
 }
 
-.logo-img.lowerPadding {
-    padding-top: 40px;
+section.acknowledgements .privacy {
+    border-bottom: solid 1px #18faff;
+    display: table;
+    font-size: 19px;
+    margin: 70px auto 225px;
+    padding-bottom: 6px;
 }
 
-.ohif-logo .ohif-icon {
-    float: left;
-    display: inline-block;
-    fill: transparent;
-    height: 20px;
-    margin: 0 8px 0 0;
-    width: 30px;
+section.acknowledgements .privacy:hover {
+    border-color: #ffffff;
 }
 
-.ohif-logo .ohif-logo-text {
-    float: left;
-    display: inline-block;
-    font-family: "Sanchez";
-    color: white;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 30px;
-    text-decoration: none;
+hr {
+    width: 62px;
+    height: 5px;
+    background-color: #18faff;
+    border: 0;
+    margin: 0 auto;
 }
 
+@media (max-width: 1023px) {
+    section.title .description {
+        font-size: 30px;
+    }
 
+    section.overview .actions {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    section.overview .actions .action svg {
+        height: 120px;
+        width: 120px;
+    }
+
+    section.overview .actions .action h3 {
+        font-size: 28px;
+    }
+
+    section.overview .actions .action p {
+        font-size: 17px;
+    }
+
+    section.overview .links {
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    section.overview .links .link {
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+
+    section.acknowledgements h2 {
+        margin-top: 60px;
+    }
+
+    section.acknowledgements .logos {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    section.acknowledgements .privacy {
+        margin-bottom: 70px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 820px) {
+    section.overview .links {
+        justify-content: center;
+    }
+
+    section.overview .links .link {
+        flex-basis: 60%;
+    }
+}
+
+@media (max-width: 639px) {
+    section {
+        padding: 0 24px;
+    }
+
+    section.title .logo {
+        font-size: 26px;
+    }
+
+    section.title .description {
+        font-size: 19px;
+
+    }
+
+    section.title .buttons .button {
+        margin: 0;
+        width: 124px;
+    }
+
+    section.title .buttons .button.login {
+        margin-left: 16px;
+    }
+
+    section.overview .introduction {
+        margin-top: 72px;
+    }
+
+    section.overview .introduction p {
+        font-size: 19px;
+        text-align: left;
+    }
+
+    section.overview .actions {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    section.overview .actions .action {
+        flex-basis: 100%;
+        margin: 0 auto 40px;
+    }
+
+    section.overview .actions .action svg {
+        height: 100px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+    section.overview .actions .action h3 {
+        font-size: 24px;
+    }
+
+    section.overview .actions .action p {
+        font-size: 16px;
+    }
+
+    section.overview .links {
+        justify-content: left;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    section.overview .links .link {
+        flex-basis: 100%;
+        margin: 20px 0;
+        min-width: unset;
+    }
+
+    section.overview .links .link .icon {
+        height: 60px;
+        min-width: 60px;
+        width: 60px;
+    }
+
+    section.overview .links .link h4 {
+        font-size: 20px;
+    }
+
+    section.overview .links .link a {
+        font-size: 15px;
+    }
+
+    section.acknowledgements h2 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    section.acknowledgements p {
+        text-align: justify;
+        margin-bottom: 40px;
+        margin-top: 15px;
+    }
+
+    section.acknowledgements .logos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    section.acknowledgements .logos a {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+
+    section.acknowledgements .logos a img {
+        max-width: 272px;
+    }
+
+    section.acknowledgements .privacy {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 639px) {
+    section.overview .introduction p {
+        text-align: justify;
+    }
+
+    section.overview .links {
+        justify-content: center;
+    }
+
+    section.overview .links .link {
+        flex-basis: 90%;
+    }
+}
+
+@media (min-width: 1201px) {
+    section.acknowledgements .logos a.break-first {
+        margin-left: 300px;
+    }
+    section.acknowledgements .logos a.break-last {
+        margin-right: 300px;
+    }
+}
