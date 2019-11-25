@@ -229,8 +229,6 @@ section.acknowledgements .logos {
 section.acknowledgements .logos a {
     display: block;
     margin: 28px 25px;
-    /* TODO: [rsna2019] REMOVE */
-    background-color: #ffffff11;
 }
 
 section.acknowledgements .privacy {
@@ -411,7 +409,7 @@ hr {
 
     section.acknowledgements .logos a {
         flex-basis: 100%;
-        margin: 10px 0;
+        margin: 25px 0;
     }
 
     section.acknowledgements .logos a img {
@@ -440,9 +438,9 @@ hr {
 
 @media (min-width: 1201px) {
     section.acknowledgements .logos a.break-first {
-        margin-left: 300px;
+        margin-left: 310px;
     }
     section.acknowledgements .logos a.break-last {
-        margin-right: 300px;
+        margin-right: 310px;
     }
 }
