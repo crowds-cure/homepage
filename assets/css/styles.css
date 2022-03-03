@@ -97,6 +97,15 @@ section.title .buttons .signup {
     font-weight: 600;
 }
 
+section.title .buttons .recap {
+    background-color: #18c8ff;
+    color: #140046;
+    font-weight: 600;
+    padding-left: 15;
+    padding-right: 15;
+    width: 180px;
+}
+
 section.title .buttons .login {
     box-shadow: inset 0 0 0 1px #c8bee9;
     color: #ffffff;
@@ -325,11 +334,16 @@ hr {
 
     section.title .buttons .button {
         margin: 0;
+    }
+
+    section.title .buttons .button.signup {
+        margin: 0;
         width: 124px;
     }
 
     section.title .buttons .button.login {
         margin-left: 16px;
+        width: 124px;
     }
 
     section.overview .introduction {
